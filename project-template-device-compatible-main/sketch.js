@@ -22,7 +22,7 @@ function setup(){
   
 //create the canvas and adjust the window sizes to suit the device 
 createCanvas(windowWidth,windowHeight)
-path=createSprite(windowWidth,windowHeight);
+path=createSprite(windowWidth/2,windowHeight);
 path.addImage(pathImg);
 path.velocityY = 4;
 
